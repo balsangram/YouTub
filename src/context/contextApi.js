@@ -32,7 +32,7 @@ export const AppContext = (props) => {
             setselectCategories,
             selectCategories,
             mobileMenu,
-            setmobileMenu
+            setmobileMenu,
         }}>
             {props.children}
         </Context.Provider>
